@@ -4,6 +4,8 @@ I'm a senior freelance software developer with 25+ years of professional experie
 
 I'm a long time TDD practitioner. Learning TDD has by far been the most important skill I've learned. But it took many years, because I was never taught what TDD really is about. I had to discover for myself.
 
+My most recent project, [Go-DOM](https://github.com/stroiman/go-dom) is born from the lack of a tool for a proper TDD process.
+
 - 🔭 I’m currently working on
   - [Go-DOM](https://github.com/stroiman/go-dom) - A Headless browser for Go.
   - [Muxify](https://github.com/stroiman/muxify) - A tool for managing TMUX sessions.
@@ -11,7 +13,11 @@ I'm a long time TDD practitioner. Learning TDD has by far been the most importan
 - 🤔 I’m looking for help with Go-DOM. Although I have a lot of web experience, having experts on the topic of how browsers work internally could help me avoid mistakes.
 - ❤️ What I love
   - Open source software
+  - Making solutions that solve real problems.
+    - No, I don't give a s*** about requirement specs
+    - I care about what the users actually needs, what problems they have that we can solve with software.
   - Finding simple solutions to complex problems
+  - Eliminating unnecessary complexity
   - TDD - I believe this is the most important skill you can learn to increase productivity.
 - 💬 Ask me about ...
   - Anything programming related
