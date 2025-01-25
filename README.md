@@ -9,7 +9,7 @@ My most recent project, [Go-DOM](https://github.com/stroiman/go-dom) is born fro
 - 🔭 I’m currently working on
   - [Go-DOM](https://github.com/stroiman/go-dom) - A Headless browser for Go.
   - [Muxify](https://github.com/stroiman/muxify) - A tool for managing TMUX sessions.
-  - [Speed](https://github.com/stroiman/opam-speed) - An OCaml unit test framework.
+  - [Speed](https://github.com/stroiman/opam-speed) - An OCaml unit test framework. Ok, hasn't had updates for some time ...
 - 🤔 I’m looking for help with Go-DOM. Although I have a lot of web experience, having experts on the topic of how browsers work internally could help me avoid mistakes.
 - ❤️ What I love
   - Open source software
