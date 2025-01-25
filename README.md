@@ -25,9 +25,9 @@ My most recent project, [Go-DOM](https://github.com/stroiman/go-dom) is born fro
 
 ## TDD
 
-The most important factor for developer productivity is a fast feedback cycle. For user interface work, the feedback is visual. Make a change to code, look at the resulting web page, PDF document, generated email, console output from the CLI command, or whatever you are building. For Web development, you typically have live-reload functionality, updating the browser without you having to leave the editor.
+The most important factor for developer productivity is a fast feedback cycle. For user interface work, the feedback is visual. Make a change to code, look at the resulting web page, PDF document, generated email, console output from the CLI command, or whatever you are building.
 
-The fast feedback cycle allows you to work in small increments, detecting wrong assumptions early, and truncating an unproductive path.
+The fast feedback cycle allows you to work in small increments, detecting wrong assumptions early, and truncating an unproductive path. Modern web development frameworks typically have live-reload functionality meaning, you see the changes as soon as you save your work.[^1]
 
 For the vast majority of your code, the feedback is about the outcome of a certain function meets your expectations. The true nature of TDD is setting up the feedback loop, allowing you to work in small increments, making small changes that work as expected, and extracting sensible abstractions when you descover them, or remove abstractions that have become unnecessary over time.
 
@@ -50,6 +50,10 @@ Today, you can build higly scalable web applications, as well as native GUI appl
 This is a dramatic change to the landscape, and I owe so much to the open-source community.
 
 It can only be natural that I do my part.
+
+---
+
+[^1]: I remember working with NCrunch, a Visual Studio plugin that would execute your test suite as you were typing, didn't even need to save the files. Pretty awesome, but an unfortunate side effect was that we often forgot to save _after_ the test passed. This was a little too fast (Ps, if anyone from that company read this, and you still maintain the product. Run the tests; but don't show the result until the user saves. Gives the impression of an even faster test run).
 
 <!--
 **stroiman/stroiman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
