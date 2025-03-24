@@ -4,7 +4,7 @@ I'm a senior freelance software developer with 25+ years of professional experie
 
 I'm a long time TDD practitioner. Learning TDD has by far been the most important skill I've learned. But it took many years, because I was never taught what TDD really is about. I had to discover for myself.
 
-My most recent project, [Go-DOM](https://github.com/stroiman/go-dom) is born from the lack of a tool for a proper TDD process.
+My most recent project, [Gost-DOM](https://github.com/gost-dom/browser) is born from the lack of a tool for a proper TDD process.
 
 - 🔭 I’m currently working on
   - [Gost-DOM](https://github.com/gost-dom/browser) - A Headless browser for Go. Off-shot projects
