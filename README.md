@@ -7,10 +7,14 @@ I'm a long time TDD practitioner. Learning TDD has by far been the most importan
 My most recent project, [Go-DOM](https://github.com/stroiman/go-dom) is born from the lack of a tool for a proper TDD process.
 
 - 🔭 I’m currently working on
-  - [Go-DOM](https://github.com/stroiman/go-dom) - A Headless browser for Go.
+  - [Gost-DOM](https://github.com/gost-dom/browser) - A Headless browser for Go. Off-shot projects
+    - [webref](https://github.com/gost-dom/webref) - Expose Web IDL specs as native Go objects (used for codegen in Gost-DOM)
+    - [generators](https://github.com/gost-dom/generators) - Code generation helper library
+    - [Surgeon](https://github.com/gost-dom/surgeon) - Surgically replace dependencies for test cases
+    - [fixture](https://github.com/gost-dom/fixture) - Helps test code with repetitive complex setup
   - [Muxify](https://github.com/stroiman/muxify) - A tool for managing TMUX sessions.
   - [Speed](https://github.com/stroiman/opam-speed) - An OCaml unit test framework. Ok, hasn't had updates for some time ...
-- 🤔 I’m looking for help with Go-DOM. Although I have a lot of web experience, having experts on the topic of how browsers work internally could help me avoid mistakes.
+- 🤔 I’m looking for help with Gost-DOM. Although I have a lot of web experience, having experts on the topic of how browsers work internally could help me avoid mistakes.
 - ❤️ What I love
   - Open source software
   - Making solutions that solve real problems.
@@ -33,9 +37,9 @@ For the vast majority of your code, the feedback is about the outcome of a certa
 
 That is why TDD isn't just about preventing the feature today from breaking tomorrow. It is about working more effectively already from day one. 
 
-## Go-DOM
+## Gost-DOM
 
-My most ambitious open-source project is [Go-DOM](https://github.com/stroiman/go-dom), a headless browser written in Go to test Go web applications with embedded JavaScript. The browser executes JavaScript using V8 (but a native Go solution is also in the works).
+My most ambitious open-source project is [Gost-DOM](https://github.com/gost-dom/browser), a headless browser written in Go to test Go web applications with embedded JavaScript. The browser executes JavaScript using V8 (but a native Go solution is also in the works).
 
 It is specifically written with the intention to support a fast TDD feedback loop when building web applications with Go and [HTMX](https://htmx.org/), a tech combination that is gaining in popularity.
 
