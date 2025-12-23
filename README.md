@@ -1,6 +1,6 @@
-## Hi there 👋
+# Hi 👋
 
-I'm a senior freelance software developer with 25+ years of professional experience (yes, getting old).
+I'm Peter Strøiman, a senior freelance software developer with 25+ years of professional experience (yes, getting old).
 
 I'm a long time TDD practitioner. Learning TDD has by far been the most important skill I've learned. But I was never taught TDD properly; I had to discover that for myself over the course of many years.
 
@@ -40,7 +40,7 @@ All the same, they allow you to refactor safely. You can extract abstractions wh
 
 ## Gost-DOM
 
-My most ambitious open-source project is [Gost-DOM](https://github.com/gost-dom/browser), a headless browser written in Go to test Go web applications with embedded JavaScript. The browser executes JavaScript using either V8 - or [sobek](github.com/grafana/sobek), a pure Go JavaScript engine.
+My most ambitious open-source project is [Gost-DOM](https://github.com/gost-dom/browser), a headless browser written in Go to test Go web applications with embedded JavaScript. The browser executes JavaScript using either V8 - or [sobek](https://github.com/grafana/sobek), a pure Go JavaScript engine.
 
 It is specifically written with the intention to support a fast TDD feedback loop when building web applications with Go and [HTMX](https://htmx.org/), a tech combination that is gaining in popularity, but one where _behaviour_ can only be verified in a browser-like environment.
 
