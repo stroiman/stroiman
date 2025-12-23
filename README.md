@@ -2,7 +2,7 @@
 
 I'm a senior freelance software developer with 25+ years of professional experience (yes, getting old).
 
-I'm a long time TDD practitioner. Learning TDD has by far been the most important skill I've learned. But it took many years, because I was never taught what TDD really is about. I had to discover for myself.
+I'm a long time TDD practitioner. Learning TDD has by far been the most important skill I've learned. But I was never taught TDD properly; I had to discover that for myself over the course of many years.
 
 My most recent project, [Gost-DOM](https://github.com/gost-dom/browser) is born from the lack of a tool for a proper TDD process.
 
@@ -11,7 +11,6 @@ My most recent project, [Gost-DOM](https://github.com/gost-dom/browser) is born 
     - [webref](https://github.com/gost-dom/webref) - Expose Web IDL specs as native Go objects (used for codegen in Gost-DOM)
     - [generators](https://github.com/gost-dom/generators) - Code generation helper library
     - [Surgeon](https://github.com/gost-dom/surgeon) - Surgically replace dependencies for test cases
-    - [fixture](https://github.com/gost-dom/fixture) - Helps test code with repetitive complex setup
   - [Muxify](https://github.com/stroiman/muxify) - A tool for managing TMUX sessions.
   - [Speed](https://github.com/stroiman/opam-speed) - An OCaml unit test framework. Ok, hasn't had updates for some time ...
 - 🤔 I’m looking for help with Gost-DOM. Although I have a lot of web experience, having experts on the topic of how browsers work internally could help me avoid mistakes.
@@ -29,31 +28,31 @@ My most recent project, [Gost-DOM](https://github.com/gost-dom/browser) is born 
 
 ## TDD
 
-The most important factor for developer productivity is a fast feedback cycle. For user interface work, the feedback is visual. Make a change to code, look at the resulting web page, PDF document, generated email, console output from the CLI command, or whatever you are building.
+The fast feedback cycle allows you to work in small increments, discovering invalid assumptions early, and truncating an unproductive path.
 
-The fast feedback cycle allows you to work in small increments, detecting wrong assumptions early, and truncating an unproductive path. Modern web development frameworks typically have live-reload functionality meaning, you see the changes as soon as you save your work.[^1]
+Modern web development frameworks typically have live-reload functionality meaning, you see the changes as soon as you save your work.[^1] This is invaluable when working with UI code; as you get immediate visual feedback on every file save.
 
-For the vast majority of your code, the feedback is about the outcome of a certain function meets your expectations. The true nature of TDD is setting up the feedback loop, allowing you to work in small increments, making small changes that work as expected, and extracting sensible abstractions when you descover them, or remove abstractions that have become unnecessary over time.
+It's the feedback loop that's important; and that's the essence of TDD, setting up a feedback loop. But instead of a visual feedback loop; you set a set of logical expectations, something describing the desired _behaviour_ of the system, preferably with sub-second feedback.
 
-That is why TDD isn't just about preventing the feature today from breaking tomorrow. It is about working more effectively already from day one. 
+The short feedback encourages short small increments, which in turn increases productivity. That is why TDD isn't just about preventing the feature today from breaking tomorrow. It is about working more effectively already from day one.
+
+All the same, they allow you to refactor safely. You can extract abstractions when you discover them; or remove them when they are no longer useful.
 
 ## Gost-DOM
 
-My most ambitious open-source project is [Gost-DOM](https://github.com/gost-dom/browser), a headless browser written in Go to test Go web applications with embedded JavaScript. The browser executes JavaScript using V8 (but a native Go solution is also in the works).
+My most ambitious open-source project is [Gost-DOM](https://github.com/gost-dom/browser), a headless browser written in Go to test Go web applications with embedded JavaScript. The browser executes JavaScript using either V8 - or [sobek](github.com/grafana/sobek), a pure Go JavaScript engine.
 
-It is specifically written with the intention to support a fast TDD feedback loop when building web applications with Go and [HTMX](https://htmx.org/), a tech combination that is gaining in popularity.
+It is specifically written with the intention to support a fast TDD feedback loop when building web applications with Go and [HTMX](https://htmx.org/), a tech combination that is gaining in popularity, but one where _behaviour_ can only be verified in a browser-like environment.
 
 I believe this would be an extremely useful tool for a lot of projects in the future, and I would be very grateful for support, e.g. through the sponsoship program.
 
-### Lover of Open-Source
+## Lover of Open-Source
 
-The landscape has changed dramatically since I started. Back then, you would normally have to pay for development environments. 3rd party components were typically also something you needed to purchase. Updates were months in between, and software was delivered on CD. I think something was still delivered on floppy when I started.
+The software development ecosystems has seen a dramatic change during my career. In the early days, development tools were typically commercial products, as were 3rd party components. Updates were months in between, and software was delivered on physical media, Compact Disk or even Floppy Disk. And you didn't get the source code.
 
-Today, you can build higly scalable web applications, as well as native GUI applications using open-source software.
+Today, you can build higly scalable web applications, as well as native GUI applications, exclusively using free and open-source software. This is a dramatic change to the life a software developer;
 
-This is a dramatic change to the landscape, and I owe so much to the open-source community.
-
-It can only be natural that I do my part.
+I owe so much to open-source, and I do what I can to give something back!
 
 ---
 
