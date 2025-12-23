@@ -40,11 +40,13 @@ All the same, they allow you to refactor safely. You can extract abstractions wh
 
 ## Gost-DOM
 
-My most ambitious open-source project is [Gost-DOM](https://github.com/gost-dom/browser), a headless browser written in Go to test Go web applications with embedded JavaScript. The browser executes JavaScript using either V8 - or [sobek](https://github.com/grafana/sobek), a pure Go JavaScript engine.
+[Gost-DOM](https://github.com/gost-dom/browser) is my most ambitious open-source project to date, and was started, as I lacked a tool to provide fast and relevant feedback for [HTMX](https://htmx.org/) applications.
 
-It is specifically written with the intention to support a fast TDD feedback loop when building web applications with Go and [HTMX](https://htmx.org/), a tech combination that is gaining in popularity, but one where _behaviour_ can only be verified in a browser-like environment.
+Gost-DOM is a headless browser written in Go, i.e., a Go module (or library) that produces a browser-like environment that it can be used to verify behaviour of web applications written in Go. 
 
-I believe this would be an extremely useful tool for a lot of projects in the future, and I would be very grateful for support, e.g. through the sponsoship program.
+The motivating use case was Go and HTMX, a tech stack currently gaining in popularity, but one where _behaviour_ can only be verified in a browser-like environment.
+
+Working as Go library, Gost-DOM operates in the test thread, avoiding the overhead of out-of-process communication, as well as the overhead of launching a browser. You can even bypass the TCP stack. This model also provides 100% predictable execution, elliminating erratic tests.
 
 ## Lover of Open-Source
 
